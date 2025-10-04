@@ -119,6 +119,7 @@
 		"/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/SPILCD/cmake_install.cmake",
 		"/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/LED/cmake_install.cmake",
 		"/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/lvgl__lvgl/cmake_install.cmake",
+		"/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/cmake_install.cmake",
 		"/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/espressif__esp_lvgl_port/cmake_install.cmake",
 		"/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/main/cmake_install.cmake"
 	],

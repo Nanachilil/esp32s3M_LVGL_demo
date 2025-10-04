@@ -842,6 +842,13 @@
 /Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/lvgl__lvgl/CMakeFiles/install.dir
 /Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/lvgl__lvgl/CMakeFiles/install/local.dir
 /Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/lvgl__lvgl/CMakeFiles/install/strip.dir
+/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/CMakeFiles/__idf_UI.dir
+/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/CMakeFiles/edit_cache.dir
+/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/CMakeFiles/rebuild_cache.dir
+/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/CMakeFiles/list_install_components.dir
+/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/CMakeFiles/install.dir
+/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/CMakeFiles/install/local.dir
+/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/CMakeFiles/install/strip.dir
 /Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/espressif__esp_lvgl_port/CMakeFiles/lvgl_port_lib.dir
 /Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/espressif__esp_lvgl_port/CMakeFiles/edit_cache.dir
 /Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/espressif__esp_lvgl_port/CMakeFiles/rebuild_cache.dir

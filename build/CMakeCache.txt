@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//No help, variable specified on the command line.
+CCACHE_ENABLE:UNINITIALIZED=0
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/Users/nana/env/esp32/v5.3.4/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32s3-elf-addr2line
 
@@ -353,6 +356,9 @@ Mbed TLS_IS_TOP_LEVEL:STATIC=OFF
 Mbed TLS_SOURCE_DIR:STATIC=/Users/nana/env/esp32/v5.3.4/esp-idf/components/mbedtls/mbedtls
 
 //No help, variable specified on the command line.
+PYTHON:UNINITIALIZED=/Users/nana/.espressif/python_env/idf5.3_py3.12_env/bin/python
+
+//No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
 
 //Value Computed by CMake
@@ -552,7 +558,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=120
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=121
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -602,7 +608,7 @@ C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.39.5 (Apple Git-154)()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/nana/env/esp32/v5.3.4/.espressif/python_env/idf5.3_py3.12_env/bin/python][found components: Interpreter ][v3.12.9()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/nana/.espressif/python_env/idf5.3_py3.12_env/bin/python][found components: Interpreter ][v3.12.9()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
@@ -613,10 +619,10 @@ _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/Users/nana/env/esp32/v5.3.4/.espressif/python_env/idf5.3_py3.12_env/bin/python
+_Python3_EXECUTABLE:INTERNAL=/Users/nana/.espressif/python_env/idf5.3_py3.12_env/bin/python
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;9;32;64;;;abi3;/Users/nana/miniconda3/lib/python3.12;/Users/nana/env/esp32/v5.3.4/.espressif/python_env/idf5.3_py3.12_env/lib/python3.12;/Users/nana/env/esp32/v5.3.4/.espressif/python_env/idf5.3_py3.12_env/lib/python3.12/site-packages;/Users/nana/env/esp32/v5.3.4/.espressif/python_env/idf5.3_py3.12_env/lib/python3.12/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=5130e1b1f2b9a7aa90b931a9e7699b35
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;9;32;64;;;abi3;/Users/nana/miniconda3/lib/python3.12;/Users/nana/.espressif/python_env/idf5.3_py3.12_env/lib/python3.12;/Users/nana/.espressif/python_env/idf5.3_py3.12_env/lib/python3.12/site-packages;/Users/nana/.espressif/python_env/idf5.3_py3.12_env/lib/python3.12/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=5624154a6a93bc6f2b08d82a20498fb6
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

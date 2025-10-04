@@ -14,3 +14,9 @@
 
 1. 使用正点原子 esp32s3M 最小系统板
 2. LCD 屏幕: esp32s3M 最小系统板的自带小屏幕ST7735S，160\*80
+
+# demo 内容
+
+## 1 横轴展示 Hello
+
+## 2 使用LVGL EDITOR 编辑的UI界面demo

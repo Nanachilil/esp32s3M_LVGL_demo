@@ -559,6 +559,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/UI/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project/build/esp-idf/espressif__esp_lvgl_port/cmake_install.cmake")
 endif()
 

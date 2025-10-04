@@ -260,7 +260,7 @@ IGNORE_EXTRA_COMPONENT:UNINITIALIZED=
 PROJECT_SOURCE_DIR:UNINITIALIZED=/Users/nana/Documents/code_in_mac/esp32/testlvgl/sample_project
 
 //No help, variable specified on the command line.
-PYTHON:UNINITIALIZED=/Users/nana/env/esp32/v5.3.4/.espressif/python_env/idf5.3_py3.12_env/bin/python
+PYTHON:UNINITIALIZED=/Users/nana/.espressif/python_env/idf5.3_py3.12_env/bin/python
 
 //No help, variable specified on the command line.
 PYTHON_DEPS_CHECKED:UNINITIALIZED=1
