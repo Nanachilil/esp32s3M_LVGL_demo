@@ -1,12 +1,11 @@
-
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 // #include "nvs_flash.h"
+#include "esp_lvgl_port.h"
 #include "led.h"
+#include "lvgl.h"
 #include "spilcd.h"
 #include <stdio.h>
-#include "esp_lvgl_port.h"
-#include "lvgl.h"
 /**
  * @brief       程序入口
  * @param       无
@@ -14,8 +13,7 @@
  */
 void app_main(void)
 {
-    spilcd_t lcd = spilcd_init();              /* SPILCD初始化 */
-
+    spilcd_t lcd = spilcd_init(); /* SPILCD初始化 */
 
     // 1. 初始化 LVGL port
     const lvgl_port_cfg_t lvgl_cfg = ESP_LVGL_PORT_INIT_CONFIG();
@@ -23,14 +21,14 @@ void app_main(void)
 
     // 2. 注册 LCD 屏幕
     lvgl_port_display_cfg_t disp_cfg = {
-        .io_handle = lcd.io_handle,        // 你前面用 esp_lcd 创建的 io_handle
-        .panel_handle = lcd.panel_handle,  // 你前面用 esp_lcd_new_panel_st7789 得到的 panel_handle
-        .buffer_size = 160 * 80,         // 刷新 buffer 一次多少像素
-        .double_buffer = true,         // 双 buffer（推荐）
+        .io_handle = lcd.io_handle,       // 你前面用 esp_lcd 创建的 io_handle
+        .panel_handle = lcd.panel_handle, // 你前面用 esp_lcd_new_panel_st7789 得到的 panel_handle
+        .buffer_size = 160 * 80,          // 刷新 buffer 一次多少像素
+        .double_buffer = true,            // 双 buffer（推荐）
         .hres = 80,
         .vres = 160,
     };
-    lv_disp_t *disp = lvgl_port_add_disp(&disp_cfg);    // lvgl_port_add_disp会覆盖panel驱动的gap设置
+    lv_disp_t *disp = lvgl_port_add_disp(&disp_cfg); // lvgl_port_add_disp会覆盖panel驱动的gap设置
     esp_lcd_panel_set_gap(lcd.panel_handle, 26, 1);  // 常见 ST7735 80x160 参数
 
     // === 3. 创建全屏黑色背景 ===
@@ -46,5 +44,4 @@ void app_main(void)
 
     // 居中方式 1：最简单的 API
     lv_obj_center(label);
-
 }
