@@ -1,1 +1,0 @@
-/Users/nana/env/esp32/v5.3.4/esp-idf/components/mbedtls/mbedtls/library/error.c
