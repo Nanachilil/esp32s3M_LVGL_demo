@@ -1,7 +1,7 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
   "idf.espIdfPath": "/Users/nana/env/esp32/v5.3.4/esp-idf",
-  "idf.toolsPath": "/Users/nana/env/esp32/v5.3.4/.espressif",
+  "idf.toolsPath": "/Users/nana/.espressif",
   "idf.pythonInstallPath": "/Users/nana/miniconda3/bin/python3",
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"

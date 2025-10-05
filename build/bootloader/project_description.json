@@ -19,7 +19,7 @@
     "phy_data_partition": "",
     "monitor_baud" :      "115200",
     "monitor_toolprefix": "xtensa-esp32s3-elf-",
-    "c_compiler":         "/Users/nana/env/esp32/v5.3.4/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+    "c_compiler":         "/Users/nana/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
     "config_environment" : {
         "COMPONENT_KCONFIGS" : "/Users/nana/env/esp32/v5.3.4/esp-idf/components/efuse/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/esp_common/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/esp_hw_support/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/esp_system/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/freertos/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/hal/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/log/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/newlib/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/soc/Kconfig;/Users/nana/env/esp32/v5.3.4/esp-idf/components/spi_flash/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/nana/env/esp32/v5.3.4/esp-idf/components/bootloader/Kconfig.projbuild;/Users/nana/env/esp32/v5.3.4/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/nana/env/esp32/v5.3.4/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/nana/env/esp32/v5.3.4/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/nana/env/esp32/v5.3.4/esp-idf/components/partition_table/Kconfig.projbuild"
