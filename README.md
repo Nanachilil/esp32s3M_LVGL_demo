@@ -1,7 +1,7 @@
 # 项目简要说明
 
 第一次尝试在esp32上移植lvgl。
-没想到esp32官方提供的组件很好用。
+没想到esp32官方提供的组件这么好用。
 
 # 环境说明
 
@@ -18,7 +18,9 @@
 # demo 内容
 
 ## 1 横轴展示 Hello
+
 ![Image](https://github.com/user-attachments/assets/f624a25a-f027-4bd4-86be-7e575585ea34)
 
 ## 2 使用LVGL EDITOR 编辑的UI界面demo
+
 ![Image](https://github.com/user-attachments/assets/b25bf232-9c21-4406-9afc-333858363db5)
