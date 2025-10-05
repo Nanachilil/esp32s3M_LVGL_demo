@@ -36,19 +36,19 @@ void app_main(void)
     esp_lcd_panel_set_gap(lcd.panel_handle, 1, 26);      // 常见 ST7735 80x160 参数
 
     // === LVGL EDITOR 创建的UI界面 DEMO （可选：替换3和4）===
-    // lv_obj_t *scr = main_screen_create();
-    // lv_scr_load(scr);
+    lv_obj_t *scr = main_screen_create();
+    lv_scr_load(scr);
 
-    // === 3. 创建全屏黑色背景 ===
-    lv_obj_t *bg = lv_obj_create(lv_scr_act());
-    lv_obj_set_size(bg, 160, 80);
-    lv_obj_set_pos(bg, 0, 0);
-    lv_obj_set_style_bg_color(bg, lv_color_hex(0x000000), LV_PART_MAIN);
-    lv_obj_set_style_border_width(bg, 0, LV_PART_MAIN);
+    // // === 3. 创建全屏黑色背景 ===
+    // lv_obj_t *bg = lv_obj_create(lv_scr_act());
+    // lv_obj_set_size(bg, 160, 80);
+    // lv_obj_set_pos(bg, 0, 0);
+    // lv_obj_set_style_bg_color(bg, lv_color_hex(0x000000), LV_PART_MAIN);
+    // lv_obj_set_style_border_width(bg, 0, LV_PART_MAIN);
 
-    // === 4. 创建一个 Label 并居中显示 ===
-    lv_obj_t *label = lv_label_create(lv_scr_act());
-    lv_label_set_text(label, "Hello");
-    // 居中方式 1：最简单的 API
-    lv_obj_center(label);
+    // // === 4. 创建一个 Label 并居中显示 ===
+    // lv_obj_t *label = lv_label_create(lv_scr_act());
+    // lv_label_set_text(label, "Hello");
+    // // 居中方式 1：最简单的 API
+    // lv_obj_center(label);
 }

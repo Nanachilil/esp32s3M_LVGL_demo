@@ -18,5 +18,7 @@
 # demo 内容
 
 ## 1 横轴展示 Hello
+![Image](https://github.com/user-attachments/assets/f624a25a-f027-4bd4-86be-7e575585ea34)
 
 ## 2 使用LVGL EDITOR 编辑的UI界面demo
+![Image](https://github.com/user-attachments/assets/b25bf232-9c21-4406-9afc-333858363db5)
